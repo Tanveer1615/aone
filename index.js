@@ -7,7 +7,7 @@ import userRoutes from "./routes/userRoutes.js";
 import cartRoutes from "./routes/cartRoutes.js";
 import productRoutes from "./routes/producRoutes.js";
 import orderRoutes from "./routes/order.js";
-// import path from "path";
+import path, { dirname } from "path";
 
 const app = express();
 
@@ -16,7 +16,8 @@ app.use(cors());
 
 // Database Connection
 connection(process.env.DATABASE_URL);
-app.use(express.static("build"));
+app.use(express.static(path.resolve(process.cwd(), "build")));
+
 
 // JSON
 app.use(express.json());
