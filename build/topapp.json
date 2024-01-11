@@ -1,0 +1,120 @@
+[
+  {
+    "_id": "6576e447381adf167d6edb7e",
+    "title": "Vu 32inch",
+    "price": "27000",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/q/z/k/-original-imagupmkh4cubzex.jpeg?q=70"
+  },
+  {
+    "_id": "6576e447381adf167d6edb7f",
+    "title": "Mi 45inch",
+    "price": "32000",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/3/g/g/-original-imagu7f3g7s5jdfs.jpeg?q=70"
+  },
+  {
+    "_id": "6576e447381adf167d6edb80",
+    "title": "Top load WashingMachine",
+    "price": "15000",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/y/4/l/-original-imagt2q2ux7rgttt.jpeg?q=70"
+  },
+
+  {
+    "_id": "6576e447381adf167d6edb81",
+    "title": "Washing Machine",
+    "price": "5000",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/q/h/c/-original-imags7pfmzfeeag6.jpeg?q=70"
+  },
+  {
+    "_id": "6576e447381adf167d6edb82",
+    "title": "Samsung",
+    "price": "4999",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/g/9/k/-original-imagvc2rra6gr95f.jpeg?q=70"
+  },
+
+  {
+    "_id": "6576e447381adf167d6edb86",
+    "title": "Lg Monitor",
+    "price": "3999",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/300/300/xif0q/monitor/e/i/f/-original-imagpu2tmee2jvds.jpeg?q=90"
+  },
+
+  {
+    "_id": "6576e447381adf167d6edb87",
+    "title": "Asus Gaming Monitor",
+    "price": "6999",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/fk-p-flap/400/400/image/e27728ad8e47967d.jpg?q=50"
+  },
+  {
+    "_id": "6576e447381adf167d6edb88",
+    "title": "Marq Gaming Monitor",
+    "price": "8999",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/g/1/e/24-inch-gaming-monitor-full-hd-24-24fhdmiqii2g-marq-by-flipkart-original-imagp8tet9w4v3br.jpeg?q=70"
+  },
+  {
+    "_id": "6576e447381adf167d6edb8c",
+    "title": "Godrej 180L",
+    "price": "7999",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/g/3/m/-original-imagtmpef7zsfwgy.jpeg?q=70"
+  },
+  {
+    "_id": "6576e447381adf167d6edb8d",
+    "title": "Lg 180L",
+    "price": "8999",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/v/b/i/-original-imagtybwkyumhdrr.jpeg?q=70"
+  },
+  {
+    "_id": "6576e447381adf167d6edb8e",
+    "title": "Bosch 380L",
+    "price": "35999",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/m/f/j/ctc39s03ni-187-3-2022-72-6-bosch-67-8-67-original-imagts2kyzezuhpp.jpeg?q=70"
+  },
+  {
+    "_id": "6576e447381adf167d6edb89",
+    "title": "DQ Monitor",
+    "price": "7999",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/l3t2fm80/monitor/m/e/j/-original-imageudynqghyhxh.jpeg?q=70"
+  },
+  {
+    "_id": "6576e447381adf167d6edb8a",
+    "title": "Samsung Monitor",
+    "price": "7999",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/j/q/e/-original-imagtdphdh2jcfqy.jpeg?q=70"
+  },
+
+  {
+    "_id": "6576e447381adf167d6edb8b",
+    "title": "Msi Gaming Monitor",
+    "price": "7999",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/e/j/5/pro-mp243-full-hd-23-8-mp243-msi-original-imaghsfvcehzdphy.jpeg?q=70"
+  },
+
+  {
+    "_id": "6576e447381adf167d6edb83",
+    "title": "Lg washing Machine",
+    "price": "3999",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/l/j/x/-original-imagt9egzzxtq8gy.jpeg?q=70"
+  },
+
+  {
+    "_id": "6576e447381adf167d6edb85",
+    "title": "Godrej Washing Machine",
+    "price": "8999",
+    "category": "app",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/b/c/g/-original-imagvrbhcwuwz7j7.jpeg?q=70"
+  }
+]
