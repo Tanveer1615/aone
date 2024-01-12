@@ -7,17 +7,18 @@ import userRoutes from "./routes/userRoutes.js";
 import cartRoutes from "./routes/cartRoutes.js";
 import productRoutes from "./routes/producRoutes.js";
 import orderRoutes from "./routes/order.js";
-import path, { dirname } from "path";
+import path from "path";
+import cookieParser from "cookie-parser";
 
 const app = express();
 
 // CORS Policy
 app.use(cors());
+app.use(cookieParser());
 
 // Database Connection
 connection(process.env.DATABASE_URL);
 app.use(express.static(path.resolve(process.cwd(), "build")));
-
 
 // JSON
 app.use(express.json());

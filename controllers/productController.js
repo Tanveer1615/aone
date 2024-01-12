@@ -4,6 +4,9 @@ class productController {
   static add = async (req, res) => {
     res.send("hiiii");
   };
+  static fetchbyid = async (req, res) => {
+    res.send("hiiii" + req.params);
+  };
   static fetch = async (req, res) => {
     if (req.body.count) {
       const to = await productModel
@@ -16,19 +19,14 @@ class productController {
         .skip(req.body.sk)
         .limit(15);
 
-    
-  
-
       res.send({ data, count: to });
     } else if (req.body.sor) {
-     
       const data = await productModel
         .find({
           category: req.body.ct,
         })
         .sort({ price: req.body.sor });
 
-     
       res.send({ data });
     } else {
       const data = await productModel
