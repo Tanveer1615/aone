@@ -5,7 +5,8 @@ class productController {
     res.send("hiiii");
   };
   static fetchbyid = async (req, res) => {
-    res.send("hiiii" + req.params);
+    const data = await productModel.findById(req.params.id);
+    res.send(data);
   };
   static fetch = async (req, res) => {
     if (req.body.count) {

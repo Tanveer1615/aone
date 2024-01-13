@@ -12,16 +12,19 @@ import cookieParser from "cookie-parser";
 
 const app = express();
 
+connection(process.env.DATABASE_URL);
 // CORS Policy
-app.use(cors());
+// app.use(cors());
 app.use(cookieParser());
+app.use(express.json());
 
 // Database Connection
-connection(process.env.DATABASE_URL);
-app.use(express.static(path.resolve(process.cwd(), "build")));
+app.use(express.static(path.join(process.cwd(), "build")));
 
 // JSON
-app.use(express.json());
+// app.get("/*", function (req, res) {
+//   res.sendFile(path.join(process.cwd(), "build", "index.html"));
+// });
 
 // Load Routes
 app.use("/", userRoutes);
