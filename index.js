@@ -22,9 +22,9 @@ app.use(express.json());
 app.use(express.static(path.join(process.cwd(), "build")));
 
 // JSON
-// app.get("/*", function (req, res) {
-//   res.sendFile(path.join(process.cwd(), "build", "index.html"));
-// });
+app.get("/*", function (req, res) {
+  res.sendFile(path.join(process.cwd(), "build", "index.html"));
+});
 
 // Load Routes
 app.use("/", userRoutes);
