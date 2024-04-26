@@ -1,0 +1,86 @@
+[
+  {
+    "productName": "boAt Cosmos Pro ",
+    "brandName": "Boat",
+    "category": "watches",
+    "productImage": [
+      "./assest/products/watches/boAt Cosmos Pro 1.webp",
+      "./assest/products/watches/boAt Cosmos Pro 2.webp",
+      "./assest/products/watches/boAt Cosmos Pro 3.webp",
+      "./assest/products/watches/boAt Cosmos Pro 4.webp"
+    ],
+    "description": "",
+    "price": 800,
+    "sellingPrice": 500
+  },
+  {
+    "productName": "boAt Storm  ",
+    "brandName": "Boat",
+    "category": "watches",
+    "productImage": [
+      "./assest/products/watches/boAt Storm  1.webp",
+      "./assest/products/watches/boAt Storm  2.webp",
+      "./assest/products/watches/boAt Storm  3.webp",
+      "./assest/products/watches/boAt Storm  4.webp"
+    ],
+    "description": "",
+    "price": 800,
+    "sellingPrice": 500
+  },
+  {
+    "productName": "boAt Storm Call  ",
+    "brandName": "Boat",
+    "category": "watches",
+    "productImage": [
+      "./assest/products/watches/boAt Storm Call 1.webp",
+      "./assest/products/watches/boAt Storm Call 2.webp",
+      "./assest/products/watches/boAt Storm Call 3.webp",
+      "./assest/products/watches/boAt Storm Call 4.webp"
+    ],
+    "description": "",
+    "price": 800,
+    "sellingPrice": 500
+  },
+  {
+    "productName": "boAt Storm Pro Call  ",
+    "brandName": "Boat",
+    "category": "watches",
+    "productImage": [
+      "./assest/products/watches/boAt Storm Pro  Call 1.webp",
+      "./assest/products/watches/boAt Storm Pro  Call 2.webp",
+      "./assest/products/watches/boAt Storm Pro  Call 3.webp",
+      "./assest/products/watches/boAt Storm Pro  Call 4.webp"
+    ],
+    "description": "",
+    "price": 800,
+    "sellingPrice": 500
+  },
+  {
+    "productName": "boAt Storm Pro RTL  ",
+    "brandName": "Boat",
+    "category": "watches",
+    "productImage": [
+      "./assest/products/watches/boAt Storm RTL 1.webp",
+      "./assest/products/watches/boAt Storm RTL 2.webp",
+      "./assest/products/watches/boAt Storm RTL 3.webp",
+      "./assest/products/watches/boAt Storm RTL 4.webp"
+    ],
+    "description": "",
+    "price": 800,
+    "sellingPrice": 500
+  },
+  {
+    "productName": "boAt Wave Beat  ",
+    "brandName": "Boat",
+    "category": "watches",
+    "productImage": [
+      "./assest/products/watches/boAt Wave Beat 1.webp",
+      "./assest/products/watches/boAt Wave Beat 2.webp",
+      "./assest/products/watches/boAt Wave Beat 3.webp",
+      "./assest/products/watches/boAt Wave Beat 4.webp"
+    ],
+    "description": "",
+    "price": 800,
+    "sellingPrice": 500
+  }
+]
