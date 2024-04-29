@@ -1,32 +1,37 @@
-const cors = require("cors");
-const express = require("express");
-const cookieParser = require("cookie-parser");
-require("dotenv").config();
-const connectDB = require("./config/db");
-const router = require("./routes");
-const path = require("path");
+import dotenv from "dotenv";
+dotenv.config();
+import express from "express";
+import cors from "cors";
+import connection from "./config/connection.js";
+import userRoutes from "./routes/userRoutes.js";
+import cartRoutes from "./routes/cartRoutes.js";
+import productRoutes from "./routes/producRoutes.js";
+import orderRoutes from "./routes/order.js";
+import path from "path";
+import cookieParser from "cookie-parser";
 
 const app = express();
-app.use(cors());
-app.use(express.json());
+
+connection(process.env.DATABASE_URL);
+// CORS Policy
+// app.use(cors());
 app.use(cookieParser());
-app.use(express.static(path.join(process.cwd(), "dist")));
+app.use(express.json());
 
-app.get("/*", function (req, res) {
-  res.sendFile(path.join(__dirname, "dist/index.html"), function (err) {
-    if (err) {
-      res.status(500).send(err);
-    }
-  });
-});
+// Database Connection
+app.use(express.static(path.join(process.cwd(), "build")));
 
-app.use("/api", router);
+// JSON
+// app.get("/*", function (req, res) {
+//   res.sendFile(path.join(process.cwd(), "build", "index.html"));
+// });
 
-const PORT = 8080 || process.env.PORT;
+// Load Routes
+app.use("/", userRoutes);
+app.use("/", cartRoutes);
+app.use("/", productRoutes);
+app.use("/", orderRoutes);
 
-connectDB().then(() => {
-  app.listen(PORT, () => {
-    console.log("connnect to DB");
-    console.log("Server is running " + PORT);
-  });
+app.listen(process.env.PORT, () => {
+  console.log(`Server listening at http://localhost:${process.env.PORT}`);
 });
